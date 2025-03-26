@@ -5,10 +5,26 @@ const model = {
   },
   inputs: {
     name: '',
+    password: '',
+    confirmPassword: '',
+    eventInfo: {
+      title: '',
+      date: '',
+      place: '',
+      extraInfo: '',
+    },
     email: '',
-    message: ''
+    friendsList: [],
+    profileInfo: '',
+    statsInfo: '',
+    message: '' ,
   },
   data: {
+    users: [],
+    friends: {}, 
+    events: [], 
+    messages: [], 
+    statistics: {}, 
     about: {
       title: 'About',
       content: 'This is the about page'
