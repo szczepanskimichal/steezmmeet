@@ -41,19 +41,19 @@ const model = {
       extraInfo: '',
       attendees: [],
     },
-    editmode:[
+    editmode:{
       videoPage: {
         title: '',
         link: '',
         description: '',
       },
-    ]
-    
-    imagePage: {
-      title: '',
-      link: '',
-      description: '',
     },
+    
+      imagePage: {
+        title: '',
+        link: '',
+        description: '',
+      },
     
     statisticsPage:{
       hoursInSlope:'',
