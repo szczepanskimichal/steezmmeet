@@ -130,14 +130,13 @@ const model = {
         ],
       }
     ],
-    
     events: [
       {
         id: 1,
         creatorId: 2,
         title: "hafjell meet",
         date: "2025-07-15",
-        place: "lillehammer",
+        place: ["lillehammer", "", ""],
         slope: "blue",
         extraInfo: "",
         attandees: [1, 2, 3],
