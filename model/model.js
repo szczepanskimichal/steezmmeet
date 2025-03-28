@@ -27,17 +27,13 @@ const model = {
       attendees: [],
     },
     editmode: {
-      videoPage: {
+      galleryPage: {
         title: '',
         link: '',
         description: '',
       },
     },
-    imagePage: {
-      title: '',
-      link: '',
-      description: '',
-    },
+  
   },
   data: {
     users: [
@@ -56,11 +52,11 @@ const model = {
               {
                 date: "11/11/11",
                 time: "10:08",
-                userID: 1,
+                userID: 2,
                 message: "hei hei",
               },
               {
-                interactedUserID: 1,
+                ToUserID: 3,
                 conversation: [
                   {
                     date: "11/11/11",
@@ -74,7 +70,13 @@ const model = {
           }
         ],
         friendsID: [1, 3, 4],
-        statistics: [{}],
+        statistics: [
+          {
+            daysInSlope: 24,
+            hoursInSlope: 70,
+          },
+
+        ],
       },
       {
         id: 1,
@@ -95,12 +97,12 @@ const model = {
                 message: "hei hei",
               },
               {
-                interactedUserID: 1,
+                ToUserID: 3,
                 conversation: [
                   {
                     date: "09/0101",
                     time: "10:15",
-                    userID: 2,
+                    userID: 1,
                     message: "helloooooooo :)",
                   },
                 ]
@@ -108,8 +110,14 @@ const model = {
             ]
           }
         ],
-        friendsID: [1, 3, 4],
-        statistics: [{}],
+        friendsID: [2, 3, 4],
+        statistics: [
+          {
+            daysInSlope: 10,
+            hoursInSlope: 50,
+          },
+
+        ],
       }
     ],
     
