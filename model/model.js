@@ -18,7 +18,18 @@ const model = {
       password: '',
       confirmPassword: '',
     },
-    viewEventPage: {
+    profilePage: {  
+      name: '',
+      aboutMe: '',
+      favoriteSlope: [],  
+      favoriteLocation: [],
+      status: false,  
+    },
+    chatpage: {
+      ToUserID: null,
+      message: "",
+    },
+    EventPage: {
       title: '',
       date: '',
       place: '',
@@ -33,7 +44,6 @@ const model = {
         description: '',
       },
     },
-  
   },
   data: {
     users: [
